@@ -15,14 +15,12 @@ $data = [
 
 for($i = 0; $i < 2; $i++)
 {
-    if($data[$i]["variant"])
+    $sum = 0;
+    for($j = 0; $j < 3; $j++)
     {
-        $sum = 0;
-        for($j = 0; $j < 3; $j++)
-        {
-            $sum = $sum + $data[$i]["variant"][$j];
-        }
+    $sum = $sum + $data[$i]["variant"][$j];
     }
+    echo $data{$i}["name"] . " = ";
     echo $sum;
     echo "<br>";
 }
