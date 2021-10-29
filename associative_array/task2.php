@@ -20,7 +20,6 @@ for($i = 0; $i < 2; $i++)
     {
     $sum = $sum + $data[$i]["variant"][$j];
     }
-    echo $data{$i}["name"] . " = ";
-    echo $sum;
+    echo $data[$i]["name"] . " = " . $sum;
     echo "<br>";
 }
