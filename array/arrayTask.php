@@ -1,9 +1,10 @@
 <?php
 
 // $teamScore = [10, 33, 5, 31, 81];
-// $add = 0;
 
 /* Add all Numbers in array */
+
+// $add = 0;
 // for ($i = 0; $i < 5; $i++)
 // {
 //     $add = $teamScore[$i] + $add;
@@ -13,6 +14,7 @@
 
 
 /* Add Number Above 20 In Given Array */
+
 // for ($i = 0; $i < 5; $i++)
 // {
 //     if( ($teamScore[$i] >= 0 && $teamScore[$i] <= 20) == false )
@@ -23,7 +25,9 @@
 // echo " Addition of numbers above 20 = $add";
 
 
+
 /* Addition of odd numbers in given Array */
+
 // $teamScore = [10, 33, 50, 31, 81];
 // $add = 0;
 // for ($i = 0; $i < 5; $i++)
@@ -36,7 +40,9 @@
 // echo " Addition of Odd numbers above in given array = $add";
 
 
+
 /* Show the Greater Number in Array*/
+
 $tS = [10000, 3300, 500, 31000, 81];
 for ($i = 0; $i < 5; $i++)
 {
