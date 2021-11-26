@@ -8,9 +8,9 @@ function CheckUserExist($logReg, $email, $mobile)
     return $result;
 }
 
-function insertUser($logReg, $name, $mobile, $email, $password)
+function insertUser($logReg, $name, $mobile, $email, $password,$image)
 {
-    $status = $logReg->query("INSERT INTO users2 (name, mobile, email, password) VALUES ( '$name', '$mobile', '$email', '$password' ) ");
+    $status = $logReg->query("INSERT INTO users2 (name, mobile, email, password,image) VALUES ( '$name', '$mobile', '$email', '$password' , '$image' ) ");
     return $status;
 }
 

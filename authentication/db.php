@@ -1,6 +1,6 @@
 <?php
 /**
- * DATA BASE CONNECTION
+    DATA BASE CONNECTION
  */
 
 $con = new mysqli("localhost","root","","auth");

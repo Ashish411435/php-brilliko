@@ -34,7 +34,7 @@ session_start();
             }
 
             ?>
-                <form action="registerForm.php" method="post">
+                <form action="handle_registerForm.php" method="post" enctype="multipart/form-data">
                     <h3>Register</h3>
                     <div class="log-reg-form">
                         <label for="">Full Name : </label>
@@ -54,6 +54,10 @@ session_start();
                     </div>
                     <br>
                     <div class="log-reg-form">
+                        <label for="">Upload Image : </label>
+                        <input type="file" name="image" id="">
+                    </div>
+                    <div class="log-reg-form">
                         <button class="btn btn-success">Register</button>
                     </div>
                 </form>
@@ -70,7 +74,7 @@ session_start();
                     }
                 ?>
 
-                <form action="LoginForm.php" method="post">
+                <form action="handle_loginForm.php" method="post">
                     <h3>Login In</h3>
                     <div class="log-reg-form">
                         <label for="">Email : </label>
