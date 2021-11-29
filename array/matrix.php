@@ -27,5 +27,6 @@ for ($i = 0; $i < 4; $i++)
     echo "Sum Of Even Numbers = $add <br>";
     $total_even_sum = $total_even_sum + $add;
 }
+
 echo "Total Sum Of Even Numbers = $total_even_sum <br>" ;
 echo "Count Numbers Less Than 50 = $count <br>";

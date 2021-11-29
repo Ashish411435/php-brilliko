@@ -7,7 +7,8 @@ require_once("helper/function.php");
 $name = $_POST['name'];
 $email = $_POST['email'];
 $mobile = $_POST['mobile'];
-$password = $_POST['password'];
+$password = password_hash($_POST['password'],PASSWORD_DEFAULT);
+
 
 /**
     TO DO: Here we check if mobile or email has already exists in database
