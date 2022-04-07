@@ -50,15 +50,15 @@ for ($i = 0; $i < 5; $i++)
     {
         $result =  $tS[0] . " is Greater";
     }
-    else if( $tS[1] > $tS[2] && $tS[1] > $tS[3] && $tS[1] > $tS[4] )
+    else if($tS[1] > $tS[0] && $tS[1] > $tS[2] && $tS[1] > $tS[3] && $tS[1] > $tS[4] )
     {
         $result =  $tS[1] . " is greater";
     }
-    else if( $tS[2] > $tS[3] && $tS[2] > $tS[4] )
+    else if( $tS[2] > $tS[0] && $tS[2] > $tS[1] && $tS[2] > $tS[3] && $tS[2] > $tS[4] )
     {
         $result =  $tS[2] . " is greater";
     }
-    else if( $tS[3] > $tS[4] )
+    else if($tS[3] > $tS[0] && $tS[3] > $tS[1] && $tS[3] > $tS[2] && $tS[3] > $tS[4] )
     {
         $result =  $tS[3] . " is greater";
     }

@@ -1,5 +1,7 @@
 <?php
 
+    // Find Largest no. in array
+
 $marks = [
    [
       49 ,42 ,74, 63 ,63 ,73
@@ -16,8 +18,7 @@ $marks = [
 // $big = $marks[1][0];
 // for($i = 0; $i < 6; $i++)
 // {
-// //   $sum = $sum + $marks[1][$i];
-
+//   $sum = $sum + $marks[1][$i];
 //   if($big < $marks[1][$i])
 //   {
 //       $big = $marks[1][$i];

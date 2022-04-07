@@ -1,5 +1,7 @@
 <?php
 
+    // Find the sum of 2d array
+
 $marks = [
     [
        49 ,42 ,74, 63 ,63 ,73
