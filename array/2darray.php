@@ -1,6 +1,6 @@
 <?php
 
-    // Find Largest no. in array
+    // Find Largest no. 2d in array
 
 $marks = [
    [

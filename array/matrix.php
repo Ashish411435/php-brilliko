@@ -1,5 +1,8 @@
 <?php
 
+// 1. Sum of Even numbers in all arrays
+// 2. Total sum of even-numbers of all arrays
+// 3. Numbers are less than 50 
 $data = [
 [48 , 48 ,19 , 34 ],
 [34 , 34 ,34 , 54 ],
