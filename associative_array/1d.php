@@ -4,7 +4,7 @@
 // numeric index
 // eg: [20,53,53,13,56,42]
 // Asscotive array store the index in string form
-// nameing index
+// naming index
 $student = [ "Assesh" , "Ludhiana" , 21 ];
 
 echo $student[2];

@@ -1,8 +1,6 @@
 <?php
 
 $prouducts  = [
-
-
       [
         "title" => "Mi LED TV 32 INCH" ,
         "description" => "Nice TV" ,

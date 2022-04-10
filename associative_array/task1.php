@@ -18,7 +18,7 @@ $products  = [
             "title" => "Jordan Sport Shoes" ,
             "stars" => 4.3 ,
             "price" => 700 ,
-            "warranty"=> 2
+            "warranty"=> 2 . "year"
       ] ,
       [
             "title" => "Addidas Sport Shoes" ,
