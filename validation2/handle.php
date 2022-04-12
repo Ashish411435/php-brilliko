@@ -16,7 +16,7 @@ else if($name != true)
 }
 else
 {
-    echo $name;
+    echo "Name = " . $name;
     echo "<br>";
 }
 
@@ -27,7 +27,7 @@ if($gender != true)
 }
 else
 {
-    echo $gender;
+    echo "Gender = " . $gender;
     echo "<br>";
 }
 if(strlen($city) > 10)
@@ -42,6 +42,6 @@ else if($city != true)
 }
 else
 {
-    echo $city;
+    echo "City = " . $city;
     echo "<br>";
 }
