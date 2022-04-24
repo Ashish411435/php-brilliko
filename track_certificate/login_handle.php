@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 
 require_once("track_certificate_db.php");
