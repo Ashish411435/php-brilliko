@@ -18,7 +18,7 @@
 
 ?>
   
-   div class="container text-center" style="margin-top:3rem">
+   <div class="container text-center" style="margin-top:3rem">
       <a href="formDelete.php?id=<?php echo $id; ?>" class="btn btn-danger">Confirm</a>
       <a href="form.php" class="btn btn-success">Discard</a>
    </div>

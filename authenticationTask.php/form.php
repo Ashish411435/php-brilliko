@@ -43,7 +43,7 @@ $result = $vamp->query($query);
                     <td> <a href="edit.php?id=<?php echo $finalResult['id'] ?>"><button class="btn btn-success btn-sm">Edit</button></a></td>
                     <td> <a href="confirm.php?id=<?php echo $finalResult['id'] ?>"><button class="btn btn-danger btn-sm">Delete</button></a></td>
                     <td> 
-                        <img src="<?= $finalResult['image'] ?> " style="width:50px" >
+                        <img src="<?= $finalResult['image'] ?>" style="width:50px">
                     </td>
                 </tr>
             <?php } ?>
